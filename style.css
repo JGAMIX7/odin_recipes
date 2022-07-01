@@ -1,33 +1,29 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@400;500&display=swap');
 
-/* Reset CSS */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Main Style */
 body{
   font-family: 'Finlandica', sans-serif;
   background-image: url(https://media.istockphoto.com/vectors/sushi-coloring-page-vector-seamless-pattern-vector-id914286654?b=1&k=20&m=914286654&s=612x612&w=0&h=HHpraE4XPwENragLm16If6aQkQImorhIbMZzCfTYAvQ=);
-  
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);  
-
-  /*
   display: flex;
   justify-content: center;
   align-items: center;
-  height:100vh;
-  */
+  
+}
+
+h1, .btn-link, li{
+  font-weight: 500;
 }
 
 .container{
-  padding: 20px 15px;
+  margin: 30px;
+  padding: 10px 15px 0 15px;
+  width: 750px;
   /* Blur from https://css.glass */
   background: rgba(255, 255, 255, 0.27);
   border-radius: 16px;
@@ -39,46 +35,40 @@ body{
 
 h1{
   text-align: center;
-  font-weight: 500;
   font-size: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #000;
 }
 
 img{
-  width: 480px;
-  height: 360px;
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  height: auto;
   object-fit: cover;
   background-position: center;
   border-radius: 10px;
-  display: flex;
-  justify-content: center;
 }
 
 .btn-wrapper{
-  margin-top: 20px;
   display: flex;
   justify-content: center;
 }
 
 .btn-wrapper .btn-link{
   text-decoration: none;
-  font-weight: 500;
   font-size: 20px;
   color: #000;
   border: 3px solid #000;
   border-radius: 25px;
   padding: 10px;
-  margin: 0 10px;
+  margin: 10px;
 }
 
-
-/* Style for onigiri and ramen page */
 ol, ul{
   margin-left: 25px;
 }
 
 li{
   font-size: 18px;
-  font-weight: 500;
 }
